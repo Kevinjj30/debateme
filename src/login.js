@@ -6,7 +6,7 @@ class Login extends Component {
         super(props);
         this.login=this.login.bind(this);
         this.handlechange= this.handlechange.bind(this);
-        this.signup=this.signup.bind(this);
+        this.Signup=this.Signup.bind(this);
         this.state={
             email:'',
             password:''
@@ -39,6 +39,7 @@ handlechange(e) {
  render(){
         return (
             <div className= "col-md-6">
+                <h1>Debate Me</h1>
                 <form>
                 <div class= "form-group">
                     <label for="exampleInputEmail1">Email Address</label>
