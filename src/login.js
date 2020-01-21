@@ -38,8 +38,9 @@ handlechange(e) {
 
  render(){
         return (
-            <div className= "col-md-6">
+            <div class="body">
                 <h1>Debate Me</h1>
+            <div className= "col-md-6">
                 <form>
                 <div class= "form-group">
                     <label for="exampleInputEmail1">Email Address</label>
@@ -51,7 +52,7 @@ handlechange(e) {
                     <div class="form-group">
                         <label for= "exampleinputPassword1">Password</label>
                         <input value={this.state.password} onChange={this.handlechange} type = "password"
-                        name="password" class="form-control" id="exampeInputPassword1" placeholder="password"/>
+                        name="password" class="form-control" id="exampeInputPassword1" placeholder="Password"/>
                         </div>
                         <button type="submit" onClick={this.login} class ="btn btn-primary">Login</button>
                         <button onClick={this.signup} style={{marginLeft: '25px'}} class= "btn btn-success">Signup</button>
@@ -60,7 +61,7 @@ handlechange(e) {
 
 
             </div>
-
+</div>
 
 
 
